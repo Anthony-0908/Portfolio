@@ -1,19 +1,15 @@
-import { useState } from 'react'
-
 import './App.css'
-import AppRouter from ''
+import { RouterProvider } from 'react-router-dom';
+import Routes from './router/Routes';
 
-function App() {
 
 
+
+const App: React.FC = () => {
   return (
-    <>
-      <div className="App">
-        <AppRouter/>
-      </div>
-    </>
-
-  )
-}
-
+    <div className="App">
+      <RouterProvider router={Routes} />
+    </div>
+  );
+};
 export default App

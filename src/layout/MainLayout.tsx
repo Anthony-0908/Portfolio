@@ -1,6 +1,6 @@
 import React from 'react'
 
-const MainLayout = () => {
+const MainLayout: React.FC = () => {
   return (
     <div>MainLayout</div>
   )
